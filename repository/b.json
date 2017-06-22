@@ -1424,6 +1424,21 @@
 					"tags": true
 				}
 			]
+		},
+		{
+			"name": "BSScript",
+			"details": "https://github.com/rusiv/BSScript",
+			"labels": ["language syntax", "snippets", "build system", "completions"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master"
+				},
+				{
+					"sublime_text": "<3000",
+					"branch": "st2"
+				}
+			]
 		}
 	]
 }
